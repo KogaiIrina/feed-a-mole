@@ -2,18 +2,8 @@
 
 You can play this game [here](https://kogayirina.github.io/feed-a-mole/)
 
-You have only one minute, try to feed as many moles as you can ☺️
+You have only one minute, try to feed as many moles as you can ☺️ At the end of the game, you will see how many moles you missed.
 
 Don't forget to turn on sound system on your device.
 
-![image](https://user-images.githubusercontent.com/63745301/181228961-526fec41-362c-40aa-a150-a6504cc1790d.png)
-
-![image](https://user-images.githubusercontent.com/63745301/181228406-994fa751-7f45-4f48-9e91-06ff0c59738d.png)
-
-![image](https://user-images.githubusercontent.com/63745301/181229244-aaedd9ef-f228-425d-845b-2174bd08d6e5.png)
-
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/63745301/181300619-e22cc3b5-2952-4de3-be72-21b93124655d.gif)

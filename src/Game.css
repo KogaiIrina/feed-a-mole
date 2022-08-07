@@ -13,7 +13,7 @@
     flex-direction: row;
     width: 400px;
     height: 400px;
-    margin-top: 150px;
+    margin-top: 100px;
     background: linear-gradient(rgb(33, 126, 33), rgb(32, 109, 32), rgb(3, 83, 3));
     cursor: url('./images/strawberry.png'), pointer;
 }

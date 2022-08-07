@@ -36,8 +36,7 @@ export default class Game extends React.Component {
     }
 
     startGame() {
-        //in this interval function we create and remove moles,
-        //we also set a timer and repeat the current function until the timer expires
+        // in this interval function we create and remove moles
         this.interval = setInterval(() => {
             if (this.state.timer < TIME_FOR_CHECK_STARTGAME_INTERVAL_MS) {
                 clearInterval(this.interval);
@@ -68,8 +67,7 @@ export default class Game extends React.Component {
         }, TIME_FOR_CHECK_STARTGAME_INTERVAL_MS);
     }
 
-    //this component allows to remove moles with a click,
-    //increases the score, and calculates how many moles we fed
+    // this method removes the mole from the board and updates the score
     onMoleFed(key) {
         if (this.state.moles[key] === undefined) {
             return;
@@ -86,7 +84,6 @@ export default class Game extends React.Component {
 
     render() {
         const holes = [];
-        //The curious fact. If we were to use var instead of let, this function wouldn't work
         for (let i = 0; i < HOLES_COUNT; i++) {
             holes.push(<div key={i} className={this.state.moles[i] ? 'MoleHole' : 'Hole'} onClick={() => this.onMoleFed(i)} ></div>);
         }

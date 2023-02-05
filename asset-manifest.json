@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebc4b6ac.css",
+    "main.js": "/static/js/main.d527f44f.js",
+    "static/media/mole.png": "/static/media/mole.f467df4610f98af2f43d.png",
+    "static/media/bite.mp3": "/static/media/bite.289adbdf5cbd2c63363a.mp3",
+    "index.html": "/index.html",
+    "main.ebc4b6ac.css.map": "/static/css/main.ebc4b6ac.css.map",
+    "main.d527f44f.js.map": "/static/js/main.d527f44f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebc4b6ac.css",
+    "static/js/main.d527f44f.js"
+  ]
+}
